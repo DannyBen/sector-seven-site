@@ -37,104 +37,112 @@
         </div>
       </div>
     </header>
-    <section id="main">
-      <div class="highlight">
-        <div class="container">
-          <h1>
-            TinySpeech Portable TTS
-          </h1>
-          <p>
-            Speak selected text
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col span-3 sidebar">
-            <section>
-              <a href="/assets/downloads/tinyspeech.zip"><button class="large"><i class="fas fa-download"></i> Download</button></a>
-            </section>
-            <section>
-              <div class="meta">
-                <div class="label">
-                  Version
-                </div>
-                <div class="value">
-                  0.1.1
-                </div>
-              </div>
-              <div class="meta">
-                <div class="label">
-                  Last Release
-                </div>
-                <div class="value">
-                  May 22, 2023
-                </div>
-              </div>
-              <div class="meta one-line">
-                <div class="label">
-                  Source
-                </div>
-                <div class="value">
-                  <i class="fab fa-github"></i> <a href="https://github.com/DannyBen/TinySpeech">DannyBen/TinySpeech</a>
-                </div>
-              </div>
-            </section>
+    <section id="main"><div class="highlight">
+  <div class="container">
+    <h1>
+      TinySpeech Portable TTS
+    </h1>
+    <p>
+      Speak selected text
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col span-3 sidebar">
+      <section>
+        <a href="/assets/downloads/tinyspeech.zip"><button class="large"><i class="fas fa-download"></i> Download</button></a>
+      </section>
+      <section>
+        <div class="meta">
+          <div class="label">
+            Version
           </div>
-          <div class="col span-9">
-            <h2>Overview</h2>
-            
-            <p>Tiny Speech is a portable system tray utility for Windows that adds a global
-            hotkey for speaking any selected text using the default (SAPI) Windows
-            Text-to-Speech.</p>
-            
-            <h2>How it Works</h2>
-            
-            <ul>
-            <li>Select any text.</li>
-            <li>Press <kbd>Ctrl</kbd>+<kbd>F12</kbd> to speak the selected text.</li>
-            <li>Press <kbd>F11</kbd> to pause/resume speaking.</li>
-            <li>Press <kbd>ESC</kbd> to stop speaking.</li>
-            </ul>
-            
-            
-            <h2>Additional Voices</h2>
-            
-            <ul>
-            <li><a href="https://support.microsoft.com/en-gb/topic/download-languages-and-voices-for-immersive-reader-read-mode-and-read-aloud-4c83a8d8-7486-42f7-8e46-2b0fdf753130">Download languages and voices (microsoft.com)</a> - Guide and microsoft voices.</li>
-            <li><a href="http://harposoftware.com/">Hapro Software</a> - Voices by IVONA and Nuance, available to download as 30 days trial or purchase.</li>
-            <li><a href="https://www.cereproc.com/buy-voices">CereProc</a> - Voices by CereProc.</li>
-            <li><a href="https://nextup.com/">NextUp Technologies</a> - Voices by AT&amp;T, Acapela, Cerence and IVONA.</li>
-            </ul>
-            
-            <h2>
-              License
-            </h2>
-            <p>The MIT License (MIT)</p>
-            
-            <p>Copyright (c) Danny Ben Shitrit</p>
-            
-            <p>Permission is hereby granted, free of charge, to any person obtaining a copy
-            of this software and associated documentation files (the "Software"), to deal
-            in the Software without restriction, including without limitation the rights
-            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-            copies of the Software, and to permit persons to whom the Software is
-            furnished to do so, subject to the following conditions:</p>
-            
-            <p>The above copyright notice and this permission notice shall be included in
-            all copies or substantial portions of the Software.</p>
-            
-            <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-            THE SOFTWARE.</p>
-            
+          <div class="value">
+            0.1.2
           </div>
         </div>
-      </div>
+        <div class="meta">
+          <div class="label">
+            Last Release
+          </div>
+          <div class="value">
+            May 23, 2023
+          </div>
+        </div>
+        <div class="meta one-line">
+          <div class="label">
+            Source
+          </div>
+          <div class="value">
+            <i class="fab fa-github"></i> <a href="https://github.com/DannyBen/TinySpeech">DannyBen/TinySpeech</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="col span-9"><h2>Overview</h2>
+
+<p>Tiny Speech is a portable system tray utility for Windows that adds a global
+hotkey for speaking any selected text using the default (SAPI) Windows
+Text-to-Speech.</p>
+
+<h2>Usage</h2>
+
+<ul>
+<li><kbd>F1</kbd> - Speak selected text</li>
+<li><kbd>F3</kbd> - Pause/Resume speaking</li>
+<li><kbd>F4</kbd> - Stop speaking</li>
+</ul>
+
+
+<h2>Configuration</h2>
+
+<p>Running TinySpeech for the first time will create a <code>TinySpeech.ini</code> file in the
+same directory. This file can be used to configure hotkeys.</p>
+
+<ul>
+<li><a href="https://www.autoitscript.com/autoit3/docs/functions/HotKeySet.htm">HotKeySet documentation</a></li>
+<li><a href="https://www.autoitscript.com/autoit3/docs/functions/Send.htm">List of keys and modifiers</a></li>
+</ul>
+
+
+<h2>Additional Voices</h2>
+
+<ul>
+<li><a href="https://support.microsoft.com/en-gb/topic/download-languages-and-voices-for-immersive-reader-read-mode-and-read-aloud-4c83a8d8-7486-42f7-8e46-2b0fdf753130">Download languages and voices (microsoft.com)</a> - Guide and microsoft voices.</li>
+<li><a href="http://harposoftware.com/">Hapro Software</a> - Voices by IVONA and Nuance, available to download as 30 days trial or purchase.</li>
+<li><a href="https://www.cereproc.com/buy-voices">CereProc</a> - Voices by CereProc.</li>
+<li><a href="https://nextup.com/">NextUp Technologies</a> - Voices by AT&amp;T, Acapela, Cerence and IVONA.</li>
+</ul>
+
+<h2>
+        License
+      </h2>
+      <p>The MIT License (MIT)</p>
+      
+      <p>Copyright (c) Danny Ben Shitrit</p>
+      
+      <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:</p>
+      
+      <p>The above copyright notice and this permission notice shall be included in
+      all copies or substantial portions of the Software.</p>
+      
+      <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+      THE SOFTWARE.</p>
+      
+    </div>
+  </div>
+</div>
     </section>
     <footer>
       <div class="container">
